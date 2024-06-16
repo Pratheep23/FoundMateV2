@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+}
+
+
+
+/* =======================================================*/
+
+
+
+.loginform-container{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+.maxw-loginform{
+    padding:5rem 3rem;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+
+    width: 40rem;
+    margin : 0 auto;
+}
+
+.loginform-img{
+    display: flex;
+    justify-content: center;
+}
+
+.maxw-loginform img{
+    width: 20rem;
+    height: auto;
+}
+
+.maxw-loginform{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.maxw-loginform label{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.maxw-loginform input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.6rem;
+}
+
+.maxw-loginform input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.maxw-loginform button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.maxw-loginform button:hover {
+    background-color: #0056b3;
+}
+
+.maxw-loginform p{
+    text-align: center;
+}
+.maxw-loginform a{
+    text-decoration: none;
+}
